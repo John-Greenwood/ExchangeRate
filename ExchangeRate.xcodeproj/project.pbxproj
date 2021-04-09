@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5202210026207AE800741DCA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520220FF26207AE800741DCA /* APIManager.swift */; };
+		5202210726207B4600741DCA /* RatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202210626207B4600741DCA /* RatesResponse.swift */; };
+		5202210B26207C4800741DCA /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202210A26207C4800741DCA /* DefaultsManager.swift */; };
+		5202210F2620839500741DCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202210E2620839500741DCA /* MainViewModel.swift */; };
+		520221122620843100741DCA /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520221112620843100741DCA /* Box.swift */; };
+		52106BC1262062F40092BDC2 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52106BC0262062F40092BDC2 /* CurrencyCell.swift */; };
 		52B87BAB2620190B005FF4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B87BAA2620190B005FF4B7 /* AppDelegate.swift */; };
 		52B87BAD2620190B005FF4B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B87BAC2620190B005FF4B7 /* SceneDelegate.swift */; };
 		52B87BB52620190B005FF4B7 /* ExchangeRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B87BB32620190B005FF4B7 /* ExchangeRate.xcdatamodeld */; };
@@ -14,12 +20,25 @@
 		52B87BBA2620190F005FF4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B87BB82620190F005FF4B7 /* LaunchScreen.storyboard */; };
 		52B87BC7262019A3005FF4B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B87BC6262019A3005FF4B7 /* MainViewController.swift */; };
 		52B87BD026201BD9005FF4B7 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B87BCF26201BD9005FF4B7 /* MainNavigationController.swift */; };
+		52D3F5BE26202D6E00F2F64E /* UIViewController+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3F5BD26202D6E00F2F64E /* UIViewController+HideKeyboard.swift */; };
+		52D3F5C12620337400F2F64E /* ChevronButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3F5C02620337400F2F64E /* ChevronButton.swift */; };
+		52D3F5C5262038A200F2F64E /* DimensionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3F5C4262038A200F2F64E /* DimensionsManager.swift */; };
+		52D3F5C926203E0200F2F64E /* UIViewController+NavbarDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3F5C826203E0200F2F64E /* UIViewController+NavbarDimensions.swift */; };
+		52D3F5CF2620582E00F2F64E /* CurrencyPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3F5CE2620582E00F2F64E /* CurrencyPickerViewController.swift */; };
 		52EDB43A26201CCF00C803AC /* UIColor+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDB43926201CCF00C803AC /* UIColor+Assets.swift */; };
+		52EDB445262022FE00C803AC /* UIImage+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDB444262022FE00C803AC /* UIImage+Assets.swift */; };
+		52EDB44B2620266600C803AC /* BottomBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDB44A2620266600C803AC /* BottomBorderedTextField.swift */; };
 		FA4D9BD7CE659F937ACC0761 /* Pods_ExchangeRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D0B07BC087D88218AF2E2D /* Pods_ExchangeRate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19D0B07BC087D88218AF2E2D /* Pods_ExchangeRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520220FF26207AE800741DCA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5202210626207B4600741DCA /* RatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesResponse.swift; sourceTree = "<group>"; };
+		5202210A26207C4800741DCA /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		5202210E2620839500741DCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		520221112620843100741DCA /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		52106BC0262062F40092BDC2 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
 		52B87BA72620190B005FF4B7 /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B87BAA2620190B005FF4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B87BAC2620190B005FF4B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +48,14 @@
 		52B87BBB2620190F005FF4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B87BC6262019A3005FF4B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		52B87BCF26201BD9005FF4B7 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		52D3F5BD26202D6E00F2F64E /* UIViewController+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboard.swift"; sourceTree = "<group>"; };
+		52D3F5C02620337400F2F64E /* ChevronButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronButton.swift; sourceTree = "<group>"; };
+		52D3F5C4262038A200F2F64E /* DimensionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionsManager.swift; sourceTree = "<group>"; };
+		52D3F5C826203E0200F2F64E /* UIViewController+NavbarDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavbarDimensions.swift"; sourceTree = "<group>"; };
+		52D3F5CE2620582E00F2F64E /* CurrencyPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerViewController.swift; sourceTree = "<group>"; };
 		52EDB43926201CCF00C803AC /* UIColor+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Assets.swift"; sourceTree = "<group>"; };
+		52EDB444262022FE00C803AC /* UIImage+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Assets.swift"; sourceTree = "<group>"; };
+		52EDB44A2620266600C803AC /* BottomBorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorderedTextField.swift; sourceTree = "<group>"; };
 		5D04661F949E4A1680EF2B9F /* Pods-ExchangeRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.debug.xcconfig"; path = "Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.debug.xcconfig"; sourceTree = "<group>"; };
 		90F4937F844388F1B6F635DC /* Pods-ExchangeRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.release.xcconfig"; path = "Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +87,31 @@
 				19D0B07BC087D88218AF2E2D /* Pods_ExchangeRate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5202210326207AF300741DCA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				520220FF26207AE800741DCA /* APIManager.swift */,
+				5202210526207B2700741DCA /* Model */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5202210526207B2700741DCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5202210626207B4600741DCA /* RatesResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52106BBF262062DF0092BDC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52106BC0262062F40092BDC2 /* CurrencyCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		52B87B9E2620190B005FF4B7 = {
@@ -95,7 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				52B87BB82620190F005FF4B7 /* LaunchScreen.storyboard */,
-				52B87BC6262019A3005FF4B7 /* MainViewController.swift */,
+				52EDB4492620264600C803AC /* Main */,
+				52D3F5CD2620581A00F2F64E /* CurrencyPicker */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -103,11 +155,13 @@
 		52B87BC426201935005FF4B7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				52EDB43826201CBE00C803AC /* Extension */,
-				52B87BCE26201BB8005FF4B7 /* ViewController */,
-				52B87BBB2620190F005FF4B7 /* Info.plist */,
 				52B87BAA2620190B005FF4B7 /* AppDelegate.swift */,
 				52B87BAC2620190B005FF4B7 /* SceneDelegate.swift */,
+				52B87BBB2620190F005FF4B7 /* Info.plist */,
+				52D3F5C32620389100F2F64E /* Manager */,
+				52EDB4482620263C00C803AC /* View */,
+				52B87BCE26201BB8005FF4B7 /* ViewController */,
+				52EDB43826201CBE00C803AC /* Extension */,
 				52B87BCB26201A0A005FF4B7 /* CoreData */,
 			);
 			path = Common;
@@ -129,12 +183,53 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		52D3F5C32620389100F2F64E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				52D3F5C4262038A200F2F64E /* DimensionsManager.swift */,
+				5202210A26207C4800741DCA /* DefaultsManager.swift */,
+				5202210326207AF300741DCA /* API */,
+				520221112620843100741DCA /* Box.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		52D3F5CD2620581A00F2F64E /* CurrencyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				52D3F5CE2620582E00F2F64E /* CurrencyPickerViewController.swift */,
+				52106BBF262062DF0092BDC2 /* View */,
+			);
+			path = CurrencyPicker;
+			sourceTree = "<group>";
+		};
 		52EDB43826201CBE00C803AC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				52EDB43926201CCF00C803AC /* UIColor+Assets.swift */,
+				52EDB444262022FE00C803AC /* UIImage+Assets.swift */,
+				52D3F5BD26202D6E00F2F64E /* UIViewController+HideKeyboard.swift */,
+				52D3F5C826203E0200F2F64E /* UIViewController+NavbarDimensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		52EDB4482620263C00C803AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52EDB44A2620266600C803AC /* BottomBorderedTextField.swift */,
+				52D3F5C02620337400F2F64E /* ChevronButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52EDB4492620264600C803AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52B87BC6262019A3005FF4B7 /* MainViewController.swift */,
+				5202210E2620839500741DCA /* MainViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,12 +345,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D3F5BE26202D6E00F2F64E /* UIViewController+HideKeyboard.swift in Sources */,
+				5202210B26207C4800741DCA /* DefaultsManager.swift in Sources */,
+				520221122620843100741DCA /* Box.swift in Sources */,
 				52B87BD026201BD9005FF4B7 /* MainNavigationController.swift in Sources */,
 				52B87BB52620190B005FF4B7 /* ExchangeRate.xcdatamodeld in Sources */,
 				52EDB43A26201CCF00C803AC /* UIColor+Assets.swift in Sources */,
+				52106BC1262062F40092BDC2 /* CurrencyCell.swift in Sources */,
 				52B87BAB2620190B005FF4B7 /* AppDelegate.swift in Sources */,
+				52D3F5C926203E0200F2F64E /* UIViewController+NavbarDimensions.swift in Sources */,
 				52B87BAD2620190B005FF4B7 /* SceneDelegate.swift in Sources */,
+				52EDB44B2620266600C803AC /* BottomBorderedTextField.swift in Sources */,
+				52D3F5CF2620582E00F2F64E /* CurrencyPickerViewController.swift in Sources */,
+				52D3F5C12620337400F2F64E /* ChevronButton.swift in Sources */,
+				52EDB445262022FE00C803AC /* UIImage+Assets.swift in Sources */,
+				5202210726207B4600741DCA /* RatesResponse.swift in Sources */,
+				5202210026207AE800741DCA /* APIManager.swift in Sources */,
+				52D3F5C5262038A200F2F64E /* DimensionsManager.swift in Sources */,
 				52B87BC7262019A3005FF4B7 /* MainViewController.swift in Sources */,
+				5202210F2620839500741DCA /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
